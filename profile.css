@@ -6,6 +6,34 @@ h1 {
   font-family: sans-serif;
   font-weight: 950;
   text-align: center;
+  background-image: url(../Week_3/website_pics/TD.png);
+  -webkit-background-clip: text;
+  color: transparent;
+  background-clip: text;
+  -webkit-filter: drop-shadow(5px 5px 10px rgb(0, 0, 0));
+  filter: drop-shadow(5px 5px 10px rgb(0, 0, 0));
+}
+
+html {
+  background-image: url(../Week_3/website_pics/psyc1.jpg);
+}
+h2 {
+  text-align: center;
+  font-size: x-large;
+}
+body ul li {
+  
+  display: table;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.boss{
+  text-align: center;
+  font-size: 10vh;
+  font-family: sans-serif;
+  font-weight: 950;
+  text-align: center;
   background-image: url(../Week_3/website_pics/eyes1.jpg);
   -webkit-background-clip: text;
   color: transparent;
@@ -14,9 +42,19 @@ h1 {
           filter: drop-shadow(5px 5px 10px rgb(97, 230, 9));
 }
 
-html {
-  background-image: url(../Week_3/website_pics/psyc1.jpg);
-}
-h2{
+  
+
+.MT{
+
+  font-size: 10vh;
+  font-family: sans-serif;
+  font-weight: 950;
   text-align: center;
-  font-size: x-large;
+  background-image: url(../Week_3/website_pics/thai2.jpg);
+  -webkit-background-clip: text;
+  color: transparent;
+  background-clip: text;
+  -webkit-filter: drop-shadow(5px 5px 10px rgb(248, 247, 247));
+          filter: drop-shadow(5px 5px 10px rgb(30, 8, 231));
+}
+
