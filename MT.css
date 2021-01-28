@@ -3,7 +3,7 @@ h1 {
     font-family: sans-serif;
     font-weight: 950;
     text-align: center;
-    background-image: url(../Week_3/website_pics/thai2.jpg);
+    background-image: url(/website_pics/thai2.jpg);
     -webkit-background-clip: text;
     color: transparent;
     background-clip: text;
@@ -11,7 +11,7 @@ h1 {
             filter: drop-shadow(5px 5px 10px rgb(30, 8, 231));
   }
   html{
-      background-image: url(../Week_3/website_pics/jtw1.JPG);
+      background-image: url(website_pics/jtw1.JPG);
   }
  iframe{
      padding-left: 35.5%;
