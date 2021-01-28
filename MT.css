@@ -1,0 +1,18 @@
+h1 {
+    font-size: 20vh;
+    font-family: sans-serif;
+    font-weight: 950;
+    text-align: center;
+    background-image: url(../Week_3/website_pics/thai2.jpg);
+    -webkit-background-clip: text;
+    color: transparent;
+    background-clip: text;
+    -webkit-filter: drop-shadow(5px 5px 10px rgb(248, 247, 247));
+            filter: drop-shadow(5px 5px 10px rgb(30, 8, 231));
+  }
+  html{
+      background-image: url(../Week_3/website_pics/jtw1.JPG);
+  }
+ iframe{
+     padding-left: 35.5%;
+ }
