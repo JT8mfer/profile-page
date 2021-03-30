@@ -1,0 +1,36 @@
+a {
+  color: red;
+  text-decoration: none;
+  list-style-type: upper-roman;
+}
+.nav {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background-color: #2f4f4f;
+  border-top: 10vh;
+}
+ul {
+  font-size: 2rem;
+  display: flex;
+  justify-content: space-around;
+  text-decoration: none;
+}
+ul {
+  font-size: 2rem;
+  display: flex;
+  justify-content: space-evenly;
+  text-decoration: none;
+}
+
+body ul li {
+  display: table;
+  margin: 0 auto;
+  text-align: center;
+}
+html {
+  background-image: url(./website_pics/projects.jpg);
+  background-size: 78%;
+  background-position-x: 15vh;
+}

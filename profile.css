@@ -59,13 +59,15 @@ body ul li {
 .boss:hover {
   text-decoration: none;
   border-radius: 25px;
+  font-size: 15vh;
   background-size: 4em;
   background-image: url(./website_pics/orangefur.jpeg);
 }
 .MT:hover {
   text-decoration: none;
   border-radius: 25px;
-  background-size: 7em;
+  font-size: 11vh;
+  background-size: 11rem;
   background-image: url(website_pics/thai2.jpg);
 }
 .MT {
@@ -87,7 +89,7 @@ body ul li {
   font-weight: 950;
   text-align: center;
   background-position: center;
-  background-size: 30%;
+  background-size: 50%;
   background-image: url(website_pics/stifipink.jpg);
   -webkit-background-clip: text;
   color: transparent;
@@ -96,13 +98,14 @@ body ul li {
   filter: drop-shadow(5px 5px 10px blue);
 }
 .stifi:hover {
-  background-size: 95%;
+  background-size: 100%;
   background-image: url("./website_pics/stifipink.jpg");
   text-decoration: none;
   border-radius: 25px;
   background-position-y: 75vh;
   background-position-x: 45vh;
   background-color: red;
+  font-size: 8rem;
 }
 
 h2 {
@@ -132,6 +135,8 @@ a {
 .Projects:hover {
   text-decoration: none;
   border-radius: 25px;
+  font-size: 15vh;
   background-size: 100%;
   background-image: url(./website_pics/projects.jpg);
 }
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3);

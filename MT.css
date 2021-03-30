@@ -1,5 +1,4 @@
 h1 {
-  border: solid 3px yellow;
   font-size: 10vh;
   font-family: sans-serif;
   font-weight: 950;
@@ -51,4 +50,7 @@ body ul li {
 iframe {
   border-radius: 45px;
   box-shadow: 10px 10px 10px 10px black;
+}
+a {
+  color: black;
 }
