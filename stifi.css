@@ -1,0 +1,115 @@
+html {
+  background-color: #15171c;
+  background-position: top;
+  background-size: 100%;
+}
+[alt="stifibig"] {
+  height: 75vh;
+  display: flex;
+  margin-left: 42vh;
+}
+ul {
+  font-size: 2rem;
+  display: flex;
+  justify-content: space-around;
+}
+h1 {
+  font-family: "Bangers", cursive;
+  font-size: 10vh;
+  font-family: sans-serif;
+  font-weight: 950;
+  text-align: center;
+
+  color: black;
+  background-clip: text;
+
+  text-shadow: 4px 4px 4px #2f4f4f;
+}
+.video1 {
+  opacity: 0.5;
+  height: 45vh;
+  width: 50vh;
+  background-color: red;
+  margin-bottom: 25vh;
+  position: sticky;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 0.5rem;
+}
+
+.card {
+  cursor: pointer;
+  background-color: transparent;
+  height: 300px;
+  perspective: 350px;
+}
+
+.card h1 {
+  font-size: 25px;
+  border-bottom: 1px #fff solid;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+
+.card img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+
+.card-inner {
+  position: relative;
+  width: 50%;
+  height: 0%;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+.card:hover .card-inner {
+  transform: rotateY(540deg);
+}
+
+.card-front,
+.card-back {
+  position: absolute;
+  width: 25%;
+  height: 25%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.card-back {
+  background-image: url("./website_pics/ozflag.jpg");
+  color: white;
+  padding: 21vh;
+  transform: rotateY(180deg);
+}
+
+.card li {
+  list-style: none;
+  padding-bottom: 10px;
+}
+
+@media (max-width: 800px) {
+  .cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 500px) {
+  .cards {
+    grid-template-columns: 1fr;
+  }
+  .card img {
+    width: 100%;
+    height: 300px;
+    object-fit: contain;
+  }
+}
+li {
+  display: flex;
+  flex-direction: column;
+}

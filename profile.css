@@ -1,60 +1,137 @@
-/* * {
-  background-color: violet;
-} */
+@import url("https://fonts.googleapis.com/css2?family=Bangers&display=swap");
+
 h1 {
-  font-size: 20vh;
+  font-family: "Bangers", cursive;
+  font-size: 10vh;
   font-family: sans-serif;
   font-weight: 950;
   text-align: center;
-  background-image: url(website_pics/TD.png);
-  -webkit-background-clip: text;
-  color: transparent;
+
+  color: black;
   background-clip: text;
-  -webkit-filter: drop-shadow(5px 5px 10px rgb(0, 0, 0));
-  filter: drop-shadow(5px 5px 10px rgb(0, 0, 0));
+
+  text-shadow: 4px 4px 4px #2f4f4f;
 }
 
 html {
-  background-image: url(website_pics/psyc1.jpg);
+  background-color: #15171c;
 }
 h2 {
   text-align: center;
   font-size: x-large;
 }
-body ul li {
-  
-  display: table;
-  margin: 0 auto;
-  text-align: left;
+ul {
+  font-size: 2rem;
+  display: flex;
+  justify-content: space-evenly;
+  text-decoration: none;
 }
 
-.boss{
+body ul li {
+  display: table;
+  margin: 0 auto;
   text-align: center;
-  font-size: 10vh;
+}
+.nav-wrapper {
+  background-color: darkslategrey;
+  min-height: 11vh;
+  display: flex;
+  flex-direction: column;
+  font-size: 3vh;
+
+  justify-content: space-around;
+}
+.boss {
+  margin-right: 30vh;
+  text-align: center;
+  font-size: 6vh;
   font-family: sans-serif;
   font-weight: 950;
   text-align: center;
-  background-image: url(website_pics/eyes1.jpg);
+  background-size: 2em;
+  background-image: url(/website_pics/orangefur.jpeg);
   -webkit-background-clip: text;
   color: transparent;
   background-clip: text;
-  -webkit-filter: drop-shadow(5px 5px 10px rgb(97, 230, 9));
-          filter: drop-shadow(5px 5px 10px rgb(97, 230, 9));
+  -webkit-filter: drop-shadow(2px 2px 1px rgb(97, 230, 9));
+  filter: drop-shadow(5px 5px 10px rgb(97, 230, 9));
 }
-
-  
-
-.MT{
-
-  font-size: 10vh;
+.boss:hover {
+  text-decoration: none;
+  border-radius: 25px;
+  background-size: 4em;
+  background-image: url(./website_pics/orangefur.jpeg);
+}
+.MT:hover {
+  text-decoration: none;
+  border-radius: 25px;
+  background-size: 7em;
+  background-image: url(website_pics/thai2.jpg);
+}
+.MT {
+  margin-top: 5vh;
+  font-size: 6vh;
   font-family: sans-serif;
   font-weight: 950;
   text-align: center;
-  background-image: url(Week_3/website_pics/thai2.jpg);
+  background-image: url(website_pics/thai2.jpg);
   -webkit-background-clip: text;
   color: transparent;
   background-clip: text;
   -webkit-filter: drop-shadow(5px 5px 10px rgb(248, 247, 247));
-          filter: drop-shadow(5px 5px 10px rgb(30, 8, 231));
+  filter: drop-shadow(5px 5px 10px rgb(30, 8, 231));
+}
+.stifi {
+  font-size: 9vh;
+  font-family: sans-serif;
+  font-weight: 950;
+  text-align: center;
+  background-position: center;
+  background-size: 30%;
+  background-image: url(website_pics/stifipink.jpg);
+  -webkit-background-clip: text;
+  color: transparent;
+  background-clip: text;
+  -webkit-filter: drop-shadow(5px 5px 10px rgb(248, 247, 247));
+  filter: drop-shadow(5px 5px 10px blue);
+}
+.stifi:hover {
+  background-size: 95%;
+  background-image: url("./website_pics/stifipink.jpg");
+  text-decoration: none;
+  border-radius: 25px;
+  background-position-y: 75vh;
+  background-position-x: 45vh;
+  background-color: red;
 }
 
+h2 {
+  font-family: "Bangers", cursive;
+  color: #2f4f4f;
+  font-size: 4rem;
+}
+a {
+  text-decoration: none;
+  color: #17151c;
+}
+.Projects {
+  margin-right: 30vh;
+  text-align: center;
+  font-size: 9vh;
+  font-family: sans-serif;
+  font-weight: bolder;
+  text-align: start;
+  background-size: 45%;
+  background-image: url(/website_pics/projects.jpg);
+  -webkit-background-clip: text;
+  color: transparent;
+  background-clip: text;
+  -webkit-filter: drop-shadow(2px 2px 1px #2f4f4f);
+  filter: drop-shadow(5px 5px 10px #2f4f4f);
+}
+.Projects:hover {
+  text-decoration: none;
+  border-radius: 25px;
+  background-size: 100%;
+  background-image: url(./website_pics/projects.jpg);
+}
