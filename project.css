@@ -34,3 +34,8 @@ html {
   background-size: 78%;
   background-position-x: 15vh;
 }
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .card {
+    background: #bada55;
+  }
+}
