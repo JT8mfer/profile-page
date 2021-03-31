@@ -1,0 +1,88 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.flip-card {
+  background-color: transparent;
+  width: 300px;
+  height: 300px;
+  perspective: 1000px;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front,
+.flip-card-back {
+     border-radius: 10px;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-card-front {
+  background-color: #bbb;
+  color: black;#
+ border-radius: 10px;
+
+  box-shadow: 2px 2px 2px 2px black;
+}
+img{
+     border-radius: 10px;
+}
+
+.flip-card-back {
+  border-radius: 10px;
+  background-color: #2980b9;
+  color: white;
+  box-shadow: 4px 4px 4px 4px black;
+  transform: rotateY(180deg);
+}
+.container {
+       border-radius: 10px;
+  justify-content: space-evenly;
+  display: flex;
+}
+h2 {
+
+  text-align: center;
+  font-size: x-large;
+}
+ul {
+  
+  font-size: 2rem;
+  display: flex;
+  justify-content: space-evenly;
+  text-decoration: none;
+}
+
+body ul li {
+  display: table;
+  margin: 0 auto;
+  text-align: center;
+}
+.nav-wrapper {
+  min-height: 11vh;
+  display: flex;
+  flex-direction: column;
+  font-size: 3vh;
+  justify-content: space-around;
+}
+html {
+  background-position: 2vh;
+  background-size: 98%;
+  background-image: url("./website_pics/drawing.jpg");
+}

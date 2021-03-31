@@ -42,7 +42,6 @@ body ul li {
   justify-content: space-around;
 }
 .boss {
-  margin-right: 30vh;
   text-align: center;
   font-size: 6vh;
   font-family: sans-serif;
@@ -59,14 +58,14 @@ body ul li {
 .boss:hover {
   text-decoration: none;
   border-radius: 25px;
-  font-size: 15vh;
+  font-size: 6h;
   background-size: 4em;
   background-image: url(./website_pics/orangefur.jpeg);
 }
 .MT:hover {
   text-decoration: none;
   border-radius: 25px;
-  font-size: 11vh;
+  font-size: 6vh;
   background-size: 11rem;
   background-image: url(website_pics/thai2.jpg);
 }
@@ -84,7 +83,7 @@ body ul li {
   filter: drop-shadow(5px 5px 10px rgb(30, 8, 231));
 }
 .stifi {
-  font-size: 9vh;
+  font-size: 7vh;
   font-family: sans-serif;
   font-weight: 950;
   text-align: center;
@@ -98,14 +97,14 @@ body ul li {
   filter: drop-shadow(5px 5px 10px blue);
 }
 .stifi:hover {
-  background-size: 100%;
+  background-size: 70%;
   background-image: url("./website_pics/stifipink.jpg");
   text-decoration: none;
-  border-radius: 25px;
+  border-radius: 7px;
   background-position-y: 75vh;
   background-position-x: 45vh;
   background-color: red;
-  font-size: 8rem;
+  font-size: 7vhrem;
 }
 
 h2 {
@@ -135,7 +134,7 @@ a {
 .Projects:hover {
   text-decoration: none;
   border-radius: 25px;
-  font-size: 15vh;
+
   background-size: 100%;
   background-image: url(./website_pics/projects.jpg);
 }
@@ -143,4 +142,8 @@ a {
   .card {
     background: #bada55;
   }
+}
+li {
+  display: flex;
+  justify-content: space-evenly;
 }
