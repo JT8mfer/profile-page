@@ -138,12 +138,14 @@ a {
   background-size: 100%;
   background-image: url(./website_pics/projects.jpg);
 }
-@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
-  .card {
-    background: #bada55;
-  }
-}
+
 li {
   display: flex;
   justify-content: space-evenly;
+}
+@media only screen and (min-device-width: 20px) and (max-device-width: 480px) {
+  .Projects{
+    columns: 1;
+  }
+  }
 }
