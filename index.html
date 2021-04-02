@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+  <script src="./"></script>
   <head>
       <link
     rel="stylesheet"
@@ -24,8 +25,38 @@
     </div>
   </head>
   <body>
+    
+
+<script src="https://cdn.jsdelivr.net/mojs/latest/mo.min.js"></script>
+    <script>
+        const bang = new mojs.Burst({
+            left:0,
+            top:0,
+            radius:{2:40},
+            angle:45,
+            count:8,
+            children:{
+                radius:8,
+                fill:'orange',
+                scale:{1:0, easing:'sin.in'},
+                pathScale:[0.7, null],
+                duration:[500, 700],
+                degreeShift:[13, null],
+            }
+        });
+
+        document.onclick = (e) => {
+            const position = {
+                x: e.pageX,
+                y: e.pageY
+            }
+            bang.tune(position);
+            bang.replay();
+        }
+    </script>
+
     <h1 class="animate__animated animate__backInDown">Jordan Williams</h1>
-    <h2>Junior Full Stack Developer</h2>
+    <h2 class="animate__animated animate__fadeIn">Junior Full Stack Developer</h2>
     <ul class="container">
    
       <li class="animate__animated animate__backInUp"><a class="boss" href="boss.html">BossLad</a></li>
