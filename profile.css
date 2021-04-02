@@ -73,7 +73,7 @@ body ul li {
 }
 .MT {
   text-align: center;
-  font-size: 9vh;
+  font-size: 6vh;
   font-family: sans-serif;
   font-weight: bolder;
   text-align: start;
@@ -96,10 +96,12 @@ body ul li {
 .stifi:hover {
   font-family: "Bangers", cursive;
   background-size: 150%;
+  background-position-y: center;
+  background-position-x: center;
   background-image: url("./website_pics/stifipink.jpg");
   text-decoration: none;
   border-radius: 7px;
-  width: 60vh;
+  width: 100vh;
   background-color: red;
   font-size: 7vhrem;
 }
@@ -142,6 +144,4 @@ footer {
   text-align: center;
   opacity: 0.8;
   width: 100%;
-  margin: 0;
-  border: 0;
 }
