@@ -134,3 +134,23 @@ html {
   background-size: 98%;
   background-image: url("./website_pics/drawing.jpg");
 }
+#button1{
+  font-weight:bolder ;
+  color: white;
+  height: 100%;
+  background-image: url(./website_pics/stifipink.jpg);
+background-size: cover;
+
+}
+#button2{
+  height: 100%;
+  background-image: url(./website_pics/DF.jpg);
+ background-size: cover;
+
+}
+#button3{
+  background-position-x: right;
+  background-image: url("./website_pics/crabs&dyl.jpg");
+  height:100%;
+  background-size: cover;
+}
