@@ -363,3 +363,10 @@ img {
 a {
   text-decoration: none;
 }
+[alt="ig"] {
+  height: 10vh;
+  width: 10vh;
+  display: flex;
+  margin-left: 75vh;
+  margin-bottom: 10vh;
+}
