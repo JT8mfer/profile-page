@@ -2,7 +2,7 @@ var gallery = document.querySelector("#gallery");
 var getVal = function (elem, style) {
   return parseInt(window.getComputedStyle(elem).getPropertyValue(style));
 };
-let getHeight = function (item) {
+var getHeight = function (item) {
   return item.querySelector(".content").getBoundingClientRect().height;
 };
 var resizeAll = function () {
