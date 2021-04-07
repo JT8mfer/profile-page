@@ -158,3 +158,16 @@ footer {
   max-width: 23vh;
   filter: drop-shadow(4px 8px 16px black);
 }
+footer {
+  text-align: center;
+  height: auto;
+  margin-top: auto;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  opacity: 0.9;
+  background-color: #17151c;
+
+  padding-top: 10px;
+  z-index: 1;
+}
