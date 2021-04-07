@@ -378,3 +378,25 @@ a {
   margin-left: 75vh;
   margin-bottom: 10vh;
 }
+.typing {
+  color: #2f4f4f;
+  width: 200ch;
+  animation: typing 15s steps(200), blink 5s step-end infinite alternate;
+  white-space: nowrap;
+  overflow: hidden;
+
+  font-family: monospace;
+  font-size: 2em;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+}
+
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}
