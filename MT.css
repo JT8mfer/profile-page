@@ -203,7 +203,7 @@ a {
   row-gap: 3vh;
 }
 .video-gallery {
-  display: flex;
-  flex-direction: row;
+  display: grid;
+
   justify-content: space-evenly;
 }
