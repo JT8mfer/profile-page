@@ -134,6 +134,7 @@ a {
 .Projects:hover {
   font-family: "Bangers", cursive;
   text-decoration: none;
+
   border-radius: 25px;
   background-size: 100%;
   background-image: url(./website_pics/projects.jpg);
@@ -151,7 +152,7 @@ footer {
 }
 [alt="icon1"] {
   max-height: 10vh;
-  filter: drop-shadow(4px 8px 16px black);
+  filter: drop-shadow(5px 7px 1px #17151c);
 }
 [alt="icon5"] {
   max-height: 10vh;
