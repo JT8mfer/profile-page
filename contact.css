@@ -28,7 +28,7 @@ h1 {
   color: #2f4f4f;
   text-shadow: #17151c 2px 2px 2px;
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   width: 35%;
   background-image: url("./website_pics/code2.png");
   font-size: 8rem;
