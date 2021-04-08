@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Bangers&display=swap");
 .carousel {
   overflow: hidden;
   max-width: 600px;
@@ -96,17 +97,18 @@ h1 {
   background-size: 100%;
   border-radius: 15px;
   box-shadow: 10px 10px 10px 10px black;
-  color: green;
+  color: #2f4f4f;
+  text-shadow: #17151c 2px 2px 2px;
   display: flex;
   justify-content: center;
   width: 35%;
-  background-image: url("./website_pics/code1.jpg");
+  background-image: url("./website_pics/code2.png");
   font-size: 8rem;
   margin-left: 33%;
   margin-top: 5%;
 }
 body {
-  background-image: url("./website_pics/code2.png");
+  background-color: #17151c;
 }
 img {
 }
@@ -123,4 +125,12 @@ body ul li {
   display: table;
   margin: 0 auto;
   text-align: center;
+}
+
+* {
+  font-family: "Bangers", cursive;
+  text-decoration: none;
+  color: #17151c;
+  margin: 0;
+  padding: 0;
 }
