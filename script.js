@@ -6,6 +6,7 @@ let bootlegAudio = new Audio();
 let HyperAudio = new Audio();
 HyperAudio.src = "Sticky Fingers - Hyper.wav";
 bootlegAudio.src = "bootlegAudio.wav";
+WillowTreeAudio.src = "WillowTreeAudio.wav";
 westwayAudio.src = "westwayAudio.wav";
 button1.addEventListener("click", function () {
   westwayAudio.play();
@@ -22,4 +23,8 @@ button2.addEventListener("click", function () {
 button3.addEventListener("click", function () {
   console.log("playing Hyper");
   HyperAudio.play();
+});
+button4.addEventListener("click", function () {
+  console.log("playing Willow Tree");
+  WillowTreeAudio.play();
 });
