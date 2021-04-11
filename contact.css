@@ -3,8 +3,7 @@
 [alt="img"] {
   width: 9vh;
   height: 9vh;
-  margin-top: 10vh;
-  margin-left: 25%;
+
   filter: drop-shadow(2px 4px 1px #2f4f4f);
 }
 
@@ -26,14 +25,15 @@ h1 {
   border-radius: 15px;
   box-shadow: 10px 10px 10px 10px black;
   color: #2f4f4f;
-  text-shadow: #17151c 2px 2px 2px;
+  text-shadow: yellow 2px 2px 2px;
   display: flex;
-  justify-content: space-evenly;
-  width: 35%;
+  text-align: center;
+  width: 25%;
   background-image: url("./website_pics/code2.png");
   font-size: 8rem;
-  margin-left: 33%;
+  margin-left: 38%;
   margin-top: 5%;
+  margin-bottom: 10vh;
 }
 ul {
   font-size: 2rem;
@@ -65,15 +65,15 @@ h2 {
   height: 5vh;
   width: 35vh;
   font-size: x-large;
-  background-size: 100%;
+  background-size: 120%;
   border-radius: 15px;
   box-shadow: 10px 10px 10px 10px black;
   color: #2f4f4f;
-  text-shadow: #17151c 2px 2px 2px;
+  text-shadow: yellow 1px 1px 1px;
   display: flex;
-  padding-top: 10%;
+  text-align: center;
   justify-content: space-around;
-
+  padding-top: 8%;
   background-image: url("./website_pics/code2.png");
 
   font-size: x-large;

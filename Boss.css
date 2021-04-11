@@ -14,6 +14,7 @@ h1 {
   background-size: 15rem;
   background-clip: text;
 
+  font-family: "Bangers", cursive;
   -webkit-filter: drop-shadow(5px 5px 1px #17151c);
   filter: drop-shadow(5px 5px 10px #2f4f4f);
 }
