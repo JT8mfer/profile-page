@@ -28,3 +28,7 @@ button4.addEventListener("click", function () {
   console.log("playing Willow Tree");
   WillowTreeAudio.play();
 });
+button4.addEventListener("click", function () {
+  console.log("playing Willow Tree");
+  WillowTreeAudio.play();
+});
