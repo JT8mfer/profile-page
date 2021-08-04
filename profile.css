@@ -175,3 +175,7 @@ footer {
 footer img {
   max-height: 1%;
 }
+.iconcs {
+  min-width: 5%;
+  min-height: 5%;
+}
